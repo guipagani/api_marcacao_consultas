@@ -35,6 +35,7 @@ public class UsuarioService {
 
         // Caso contrário, você precisará implementar uma lógica personalizada
         // Esta é uma implementação simplificada:
+        // Manteremos assim e implementaremos no futuro, se precisar!
         return usuarioRepository.findByTipo("MEDICO");
     }
 
@@ -95,5 +96,9 @@ public class UsuarioService {
         }
 
         return usuario;
+    }
+    public Usuario buscarPorEmail(String email) {
+        return usuarioRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
     }
 }
