@@ -1,9 +1,9 @@
-package com.fiap.ecb.api_marcacao_consultas.controller;
+package com.fiap.ecr.api_marcacao_consultas.controller;
 
-import com.fiap.ecb.api_marcacao_consultas.model.Usuario;
-import com.fiap.ecb.api_marcacao_consultas.service.UsuarioService;
-import com.fiap.ecb.api_marcacao_consultas.security.JwtTokenProvider;
-import com.fiap.ecb.api_marcacao_consultas.dto.LoginRequest;
+import com.fiap.ecr.api_marcacao_consultas.model.Usuario;
+import com.fiap.ecr.api_marcacao_consultas.service.UsuarioService;
+import com.fiap.ecr.api_marcacao_consultas.security.JwtTokenProvider;
+import com.fiap.ecr.api_marcacao_consultas.dto.LoginRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

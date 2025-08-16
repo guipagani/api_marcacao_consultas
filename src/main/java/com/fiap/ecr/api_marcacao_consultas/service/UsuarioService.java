@@ -1,7 +1,7 @@
-package com.fiap.ecb.api_marcacao_consultas.service;
+package com.fiap.ecr.api_marcacao_consultas.service;
 
-import com.fiap.ecb.api_marcacao_consultas.model.Usuario;
-import com.fiap.ecb.api_marcacao_consultas.repository.UsuarioRepository;
+import com.fiap.ecr.api_marcacao_consultas.model.Usuario;
+import com.fiap.ecr.api_marcacao_consultas.repository.UsuarioRepository;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import java.util.List;

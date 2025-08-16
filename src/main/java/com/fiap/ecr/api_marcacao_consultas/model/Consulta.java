@@ -1,7 +1,8 @@
-package com.fiap.ecb.api_marcacao_consultas.model;
+package com.fiap.ecr.api_marcacao_consultas.model;
 import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
+
 @Data
 @Entity
 @Table(name = "consultas")

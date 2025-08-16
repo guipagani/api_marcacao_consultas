@@ -1,6 +1,6 @@
-package com.fiap.ecb.api_marcacao_consultas.repository;
+package com.fiap.ecr.api_marcacao_consultas.repository;
 
-import com.fiap.ecb.api_marcacao_consultas.model.Usuario;
+import com.fiap.ecr.api_marcacao_consultas.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
