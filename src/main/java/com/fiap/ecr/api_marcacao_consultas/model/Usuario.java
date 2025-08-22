@@ -1,6 +1,8 @@
 package com.fiap.ecr.api_marcacao_consultas.model;
+
 import jakarta.persistence.*;
 import lombok.Data;
+
 @Data
 @Entity
 @Table(name = "usuarios")
@@ -11,5 +13,6 @@ public class Usuario {
     private String nome;
     private String email;
     private String senha;
-    private String tipo; // Paciente, Médico ou Admin
+    private String tipo; // Paciente, Médico ou Adminb
+    private String especialidade; // Especialdiade do medico (null para pacientes e adm)
 }
